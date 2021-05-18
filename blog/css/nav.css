@@ -1,0 +1,57 @@
+/*==================================================
+                  NAV-BAR
+====================================================*/
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600  !important;
+    text-transform: uppercase  !important;
+    
+  }
+  
+  #sideNav{
+    border: 2px solid white !important;
+    border-color: transparent !important;
+    box-shadow: 0px 0px 10px 5px grey !important;
+  }
+  
+  @media (min-width: 992px) {
+      #sideNav {
+          text-align: center !important;
+          position: fixed !important;
+          top: 0 !important;
+          left: 0 !important;
+          display: flex !important;
+          flex-direction: column !important;
+          width: 17rem !important;
+          height: 100vh !important;
+         
+      }
+      #sideNav .navbar-brand {
+          display: flex !important;
+          margin: auto auto 0 !important;
+          padding: 0.5rem !important;
+      }
+      #sideNav .navbar-brand .img-profile {
+          max-width: 10rem !important;
+          max-height: 10rem !important;
+          border-radius: 100% !important;
+          box-shadow: 0px 0px 10px 3px gray !important;
+      }
+      #sideNav .navbar-collapse {
+          display: flex !important;
+          align-items: flex-start !important;
+          flex-grow: 0 !important;
+          width: 100% !important;
+          margin-bottom: auto !important;
+      }
+      #sideNav .navbar-collapse .navbar-nav {
+          flex-direction: column !important;
+          width: 100% !important;
+      }
+      #sideNav .navbar-collapse .navbar-nav .nav-item {
+          display: block !important;
+      }
+      #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+          display: block !important;
+      }
+  }
+  
